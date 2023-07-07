@@ -1,3 +1,36 @@
+html{
+    height: 100%;
+}
+#mainNavbar{ /*ul*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+ul{
+    background-color: #ddd;
+}
+#mainNavbarItems{ /*li*/
+    float: left;
+    background-color: var(--color-bg-2);
+    border-right: 1px solid #bbb;
+}
+
+#mainNavbarItems a{ /*li a*/
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+}
+#mainNavbarItems a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04aa6d;
+}
 body {
     --color-text: #fff;
     --color-bg: #143261;
